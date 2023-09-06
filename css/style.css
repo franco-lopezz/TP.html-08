@@ -1,0 +1,267 @@
+.header{
+    
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50rem;
+    width: 100%;
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:black
+
+}
+
+.barra{
+    color: white;
+    background-color: black;
+    display: flex;
+    
+    
+    
+}
+
+
+ul{
+    
+    gap: 1.5rem;
+    flex-direction: row;
+    justify-content: space-around ;
+}
+
+.principal{
+    background-color: black;
+    
+    display: flex
+    
+    
+    
+    
+
+    
+}
+
+.header-descripcion{
+    color: white;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    
+    
+
+    
+}
+
+
+.no-margin{
+ margin: 0;
+
+}
+
+
+
+
+.card-size{
+    width: 25rem;
+    text-align: center ;
+    margin: 1rem;
+    
+    
+}
+
+:root{
+    --colorFondo: #a86ce8;
+    --colorPrimario: #b4aeb7
+    --fuenteTitulo: 'lobster',cursive;
+    --fuenteTexto: 'Alata', sans-serif;
+    
+}
+
+
+    
+
+
+
+.html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
+
+body{
+    font-family: var(--fuenteTexto);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: nome;
+    
+    
+}
+
+h1{
+    font-family: var(--fuentetitulo);
+    -webkit-text-stroke: 1px white;
+    color: white;
+    font-size: 5rem;
+    
+}
+
+.imagen-blog{
+
+ aspect-ratio: 16/9;
+ object-fit: contain;
+ 
+ }
+
+ .boton{
+    
+    color:white;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.boton-primario{
+    background-color: gray;
+}
+.boton-secundario{
+    background-color: gray;
+    
+}
+
+.producto{
+   list-style: nome;
+}
+
+
+ .entrada:last-of-type{
+   
+   border-bottom: 1px solid grey; 
+
+ }
+ .entrada{
+    border: nome;
+    margin-bottom: 0;
+ }
+
+.no-padding{
+    padding: 0;
+}
+
+.elemento-producto{
+    border-bottom:1px solid white;
+
+}
+
+.elemento-producto:last-of-type{
+    border: nome;
+    
+}
+
+.texto-bold{
+    
+    font-size: 1rem;
+}
+
+.tetxo-normal{
+    font-weight: normal;
+}
+
+.contenido-main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 1rem;
+    
+}
+
+.sidebar{
+    color: black;
+    padding: 2rem;
+
+}
+
+    
+
+
+.img-nosotros{
+    width: 30rem;
+    object-fit: contain;
+    
+}
+
+.sobre-nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centrar-texto{
+    text-align: center;
+    
+    
+
+}
+.botellas{
+    color: white;
+    margin: 10px;;
+   
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.img-productos{
+    width: 10rem;
+    
+
+}
+
+.bg-contacto{
+    background-image: url(img/fondo1vino.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.main{
+    height: 25rem;
+}
+
+.formulario{
+    background-color:black;
+    margin: -5rem auto 0 auto ;
+    padding: 4rem;
+}
+.campo{
+display: flex;
+margin-bottom: 1rem;
+}
+.campo_label{
+    flex: 0 0 12rem;
+    padding-right: 2rem;
+}
+.campo_input{
+    flex: 1;
+    border-radius: 5px;
+   
+}
+
+.campo_textarea{
+   height: 10rem;
+}
