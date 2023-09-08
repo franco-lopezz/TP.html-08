@@ -14,7 +14,7 @@
 
 .barra{
     color: white;
-    background-color: black;
+    background-color:black;
     display: flex;
     
     
@@ -141,6 +141,11 @@ h1{
     
 }
 
+.boton-terciario{
+    background-color: blue;
+    border-radius: 6px;
+}
+
 .producto{
    list-style: nome;
 }
@@ -189,6 +194,7 @@ h1{
 .sidebar{
     color: black;
     padding: 2rem;
+    color: white;
 
 }
 
@@ -205,11 +211,12 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
 
 .centrar-texto{
     text-align: center;
-    
+    color: white;
     
 
 }
@@ -224,6 +231,8 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color: black;
+    color: white;
     
 }
 .img-productos{
@@ -233,19 +242,18 @@ h1{
 }
 
 .bg-contacto{
-    background-image: url(img/fondo1vino.jpg);
-   
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 .main{
     height: 25rem;
+    
 }
 
 .formulario{
-    background-color:black;
-    margin: -5rem auto 0 auto ;
+    background-color: black;
+    margin: -2rem auto 0 auto ;
     padding: 4rem;
 }
 .campo{
@@ -253,15 +261,16 @@ display: flex;
 margin-bottom: 1rem;
 }
 .campo_label{
-    flex: 0 0 12rem;
+    flex: 0 0 2rem;
     padding-right: 2rem;
 }
 .campo_input{
     flex: 1;
     border-radius: 5px;
-   
+    
 }
 
 .campo_textarea{
    height: 10rem;
+   width: 30rem;
 }
